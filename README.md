@@ -23,4 +23,5 @@ Example bot that trades on Phoenix and creates a fund on Prop Shop: `phoenixMome
 
 Both bots trade a simple RSI strategy based on this article: [Buy High, Sell Higher](https://quantifi.substack.com/p/buy-high-sell-higher-a-proven-strategy?r=23zkjs&triedRedirect=true)
 The idea can use a moving averages or momentum indicators like the RSI.
-The bot classes have description in their respective files but the gist is this:
+The bot classes have description in their respective files but the gist is that the code is reusable,
+and you only need to worry about changing the trading logic.
