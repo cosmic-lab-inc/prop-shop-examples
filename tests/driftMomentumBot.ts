@@ -45,7 +45,7 @@ import {
 } from '@drift-labs/vaults-sdk';
 import { bootstrapDevnetInvestor, sendTx } from './driftHelpers';
 import { createCloseAccountInstruction } from '@solana/spl-token';
-import { MarketInfo } from '@cosmic-lab/prop-shop-examples/src/types';
+import { MarketInfo } from '@cosmic-lab/prop-shop-examples';
 
 describe('driftMomentumBot', () => {
 	const opts: ConfirmOptions = {
