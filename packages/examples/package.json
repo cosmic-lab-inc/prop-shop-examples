@@ -6,7 +6,7 @@
   "main": "src/index.ts",
   "repository": {
     "type": "git",
-    "url": "https://github.com/cosmic-lab-inc/prop_shop.git"
+    "url": "https://github.com/cosmic-lab-inc/prop_shop_examples.git"
   },
   "scripts": {
     "clean": "yes | rm -rf dist && rm -rf node_modules",
@@ -21,6 +21,6 @@
     "@drift-labs/sdk": "2.96.0-beta.14",
     "@drift-labs/vaults-sdk": "0.1.468",
     "@ellipsis-labs/phoenix-sdk": "2.0.3",
-    "@cosmic-lab/prop-shop-sdk": "^0.2.19"
+    "@cosmic-lab/prop-shop-sdk": "^0.2.20"
   }
 }

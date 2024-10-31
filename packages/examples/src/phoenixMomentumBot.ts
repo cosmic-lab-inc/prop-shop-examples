@@ -29,7 +29,7 @@ import {EventEmitter} from "events";
  * The strategy is a "momentum" strategy that buys if price is >X period moving average, and sells if below.
  * For most blue-chip tokens this strategy backtests well, as that which is trending tends to continue trending (momentum).
  *
- * If you are forking this example bot, then change the trading strategy logic within the "assessTrade" function.
+ * If you are forking this example bot, then change the trading strategy logic within the "start" function.
  * All other code should be reusable as is.
  *
  * Upon calling "initialize" the bot will stream deposit/withdraw/order events,

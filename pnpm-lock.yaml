@@ -22,8 +22,8 @@ importers:
         specifier: ^0.1.7
         version: 0.1.7(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@cosmic-lab/prop-shop-sdk':
-        specifier: ^0.2.19
-        version: 0.2.19(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        specifier: ^0.2.20
+        version: 0.2.20(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@drift-labs/sdk':
         specifier: 2.96.0-beta.14
         version: 2.96.0-beta.14(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
@@ -395,8 +395,8 @@ importers:
         specifier: ^0.1.7
         version: 0.1.7(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@cosmic-lab/prop-shop-sdk':
-        specifier: ^0.2.19
-        version: 0.2.19(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
+        specifier: ^0.2.20
+        version: 0.2.20(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@drift-labs/sdk':
         specifier: 2.96.0-beta.14
         version: 2.96.0-beta.14(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
@@ -1174,8 +1174,8 @@ packages:
     resolution: {integrity: sha512-+ANofwdRemoupMhdg/BBqI4AmPasnqO+vzLBf8XgB9sZAksVpcJFjH7ME56QqL2Pj3wrggNlLfNLfTSmeQ4+zw==}
     engines: {node: '>=16'}
 
-  '@cosmic-lab/prop-shop-sdk@0.2.19':
-    resolution: {integrity: sha512-TvGaJLuCkwIZftQiCvQpYs00rJ5ehH8jG8C9r1CaSXfgFfGUXF+MxPj/Lz00joL4qfI1AWLguEjQwt8ZQfjhqg==}
+  '@cosmic-lab/prop-shop-sdk@0.2.20':
+    resolution: {integrity: sha512-Ec/9uQko3UApN5rnzqdE5OSNNvzcDuyxSWVg0tSrB4iaLfWuuuXIi5AEIu3Kfoj84jKJc2aBUvF7DOn4Opim1Q==}
 
   '@cspotcode/source-map-support@0.8.1':
     resolution: {integrity: sha512-IchNf6dN4tHoMFIn/7OE8LWZ19Y6q/67Bmf6vnGREv8RSbBVb9LPJxEcnwrcwX6ixSvaiGoomAUvu4YSxXrVgw==}
@@ -9837,7 +9837,7 @@ snapshots:
       - typescript
       - utf-8-validate
 
-  '@cosmic-lab/prop-shop-sdk@0.2.19(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@cosmic-lab/prop-shop-sdk@0.2.20(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@coral-xyz/anchor': 0.28.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@cosmic-lab/data-source': 0.7.4(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(react-native@0.76.1(@babel/core@7.26.0)(@babel/preset-env@7.26.0(@babel/core@7.26.0))(@types/react@18.3.12)(bufferutil@4.0.8)(encoding@0.1.13)(react@18.3.1)(utf-8-validate@5.0.10))(react@18.3.1)(typescript@5.6.3)(utf-8-validate@5.0.10)
@@ -9867,7 +9867,7 @@ snapshots:
   '@drift-labs/competitions-sdk@0.2.386(@types/node@20.17.4)(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)':
     dependencies:
       '@coral-xyz/anchor': 0.26.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@drift-labs/sdk': 2.87.0-beta.1(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@drift-labs/sdk': 2.87.0-beta.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@switchboard-xyz/solana.js': 2.8.4(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       cerializr: 3.1.4
@@ -9886,10 +9886,10 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@drift-labs/sdk@2.87.0-beta.1(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@drift-labs/sdk@2.87.0-beta.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
       '@coral-xyz/anchor': 0.28.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@ellipsis-labs/phoenix-sdk': 1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@ellipsis-labs/phoenix-sdk': 1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@project-serum/serum': 0.13.65(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@pythnetwork/client': 2.5.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@pythnetwork/price-service-sdk': 1.7.1
@@ -9905,16 +9905,14 @@ snapshots:
     transitivePeerDependencies:
       - bufferutil
       - encoding
-      - fastestsmallesttextencoderdecoder
       - supports-color
-      - typescript
       - utf-8-validate
 
   '@drift-labs/sdk@2.96.0-beta.14(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
     dependencies:
       '@coral-xyz/anchor': 0.28.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@coral-xyz/anchor-30': '@coral-xyz/anchor@0.30.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)'
-      '@ellipsis-labs/phoenix-sdk': 1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@ellipsis-labs/phoenix-sdk': 1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@openbook-dex/openbook-v2': 0.2.10(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
       '@project-serum/serum': 0.13.65(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@pythnetwork/client': 2.5.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
@@ -9922,7 +9920,7 @@ snapshots:
       '@pythnetwork/pyth-solana-receiver': 0.7.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@solana/spl-token': 0.3.7(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@switchboard-xyz/on-demand': 1.2.32(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)
+      '@switchboard-xyz/on-demand': 1.2.32(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       anchor-bankrun: 0.3.0(@coral-xyz/anchor@0.28.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(solana-bankrun@0.3.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))
       node-cache: 5.1.2
       rpc-websockets: 7.10.0
@@ -9962,12 +9960,12 @@ snapshots:
       - supports-color
       - utf-8-validate
 
-  '@ellipsis-labs/phoenix-sdk@1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
+  '@ellipsis-labs/phoenix-sdk@1.4.5(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
       '@metaplex-foundation/beet': 0.7.2
       '@metaplex-foundation/rustbin': 0.3.5
       '@metaplex-foundation/solita': 0.12.2(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@solana/spl-token': 0.3.11(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)
+      '@solana/spl-token': 0.3.7(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@types/node': 18.19.62
       bn.js: 5.2.1
       borsh: 0.7.0
@@ -9976,9 +9974,7 @@ snapshots:
       - '@solana/web3.js'
       - bufferutil
       - encoding
-      - fastestsmallesttextencoderdecoder
       - supports-color
-      - typescript
       - utf-8-validate
 
   '@ellipsis-labs/phoenix-sdk@2.0.3(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
@@ -11690,11 +11686,6 @@ snapshots:
       '@solana/errors': 2.0.0-preview.4(typescript@5.6.3)
       typescript: 5.6.3
 
-  '@solana/codecs-core@2.0.0-rc.1(typescript@4.9.5)':
-    dependencies:
-      '@solana/errors': 2.0.0-rc.1(typescript@4.9.5)
-      typescript: 4.9.5
-
   '@solana/codecs-core@2.0.0-rc.1(typescript@5.6.3)':
     dependencies:
       '@solana/errors': 2.0.0-rc.1(typescript@5.6.3)
@@ -11706,13 +11697,6 @@ snapshots:
       '@solana/codecs-numbers': 2.0.0-preview.4(typescript@5.6.3)
       '@solana/errors': 2.0.0-preview.4(typescript@5.6.3)
       typescript: 5.6.3
-
-  '@solana/codecs-data-structures@2.0.0-rc.1(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs-core': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-numbers': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/errors': 2.0.0-rc.1(typescript@4.9.5)
-      typescript: 4.9.5
 
   '@solana/codecs-data-structures@2.0.0-rc.1(typescript@5.6.3)':
     dependencies:
@@ -11727,12 +11711,6 @@ snapshots:
       '@solana/errors': 2.0.0-preview.4(typescript@5.6.3)
       typescript: 5.6.3
 
-  '@solana/codecs-numbers@2.0.0-rc.1(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs-core': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/errors': 2.0.0-rc.1(typescript@4.9.5)
-      typescript: 4.9.5
-
   '@solana/codecs-numbers@2.0.0-rc.1(typescript@5.6.3)':
     dependencies:
       '@solana/codecs-core': 2.0.0-rc.1(typescript@5.6.3)
@@ -11746,14 +11724,6 @@ snapshots:
       '@solana/errors': 2.0.0-preview.4(typescript@5.6.3)
       fastestsmallesttextencoderdecoder: 1.0.22
       typescript: 5.6.3
-
-  '@solana/codecs-strings@2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs-core': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-numbers': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/errors': 2.0.0-rc.1(typescript@4.9.5)
-      fastestsmallesttextencoderdecoder: 1.0.22
-      typescript: 4.9.5
 
   '@solana/codecs-strings@2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)':
     dependencies:
@@ -11774,17 +11744,6 @@ snapshots:
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
 
-  '@solana/codecs@2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs-core': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-data-structures': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-numbers': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-strings': 2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)
-      '@solana/options': 2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)
-      typescript: 4.9.5
-    transitivePeerDependencies:
-      - fastestsmallesttextencoderdecoder
-
   '@solana/codecs@2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)':
     dependencies:
       '@solana/codecs-core': 2.0.0-rc.1(typescript@5.6.3)
@@ -11802,12 +11761,6 @@ snapshots:
       commander: 12.1.0
       typescript: 5.6.3
 
-  '@solana/errors@2.0.0-rc.1(typescript@4.9.5)':
-    dependencies:
-      chalk: 5.3.0
-      commander: 12.1.0
-      typescript: 4.9.5
-
   '@solana/errors@2.0.0-rc.1(typescript@5.6.3)':
     dependencies:
       chalk: 5.3.0
@@ -11822,17 +11775,6 @@ snapshots:
       '@solana/codecs-strings': 2.0.0-preview.4(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
       '@solana/errors': 2.0.0-preview.4(typescript@5.6.3)
       typescript: 5.6.3
-    transitivePeerDependencies:
-      - fastestsmallesttextencoderdecoder
-
-  '@solana/options@2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs-core': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-data-structures': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-numbers': 2.0.0-rc.1(typescript@4.9.5)
-      '@solana/codecs-strings': 2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)
-      '@solana/errors': 2.0.0-rc.1(typescript@4.9.5)
-      typescript: 4.9.5
     transitivePeerDependencies:
       - fastestsmallesttextencoderdecoder
 
@@ -11864,14 +11806,6 @@ snapshots:
       - fastestsmallesttextencoderdecoder
       - typescript
 
-  '@solana/spl-token-metadata@0.1.6(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)':
-    dependencies:
-      '@solana/codecs': 2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)
-      '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-    transitivePeerDependencies:
-      - fastestsmallesttextencoderdecoder
-      - typescript
-
   '@solana/spl-token-metadata@0.1.6(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)':
     dependencies:
       '@solana/codecs': 2.0.0-rc.1(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)
@@ -11895,20 +11829,6 @@ snapshots:
     transitivePeerDependencies:
       - bufferutil
       - encoding
-      - utf-8-validate
-
-  '@solana/spl-token@0.3.11(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)(utf-8-validate@5.0.10)':
-    dependencies:
-      '@solana/buffer-layout': 4.0.1
-      '@solana/buffer-layout-utils': 0.2.0(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@solana/spl-token-metadata': 0.1.6(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)
-      '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      buffer: 6.0.3
-    transitivePeerDependencies:
-      - bufferutil
-      - encoding
-      - fastestsmallesttextencoderdecoder
-      - typescript
       - utf-8-validate
 
   '@solana/spl-token@0.3.11(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
@@ -12446,10 +12366,10 @@ snapshots:
       eventemitter3: 5.0.1
       uuid: 9.0.1
 
-  '@solworks/soltoolkit-sdk@0.0.23(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)':
+  '@solworks/soltoolkit-sdk@0.0.23(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
       '@solana/buffer-layout': 4.0.1
-      '@solana/spl-token': 0.3.11(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@4.9.5)(utf-8-validate@5.0.10)
+      '@solana/spl-token': 0.3.7(@solana/web3.js@1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10))(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@types/bn.js': 5.1.6
       '@types/node': 18.19.62
@@ -12460,7 +12380,6 @@ snapshots:
     transitivePeerDependencies:
       - bufferutil
       - encoding
-      - fastestsmallesttextencoderdecoder
       - utf-8-validate
 
   '@soncodi/signal@2.0.7': {}
@@ -12523,12 +12442,12 @@ snapshots:
       - encoding
       - utf-8-validate
 
-  '@switchboard-xyz/on-demand@1.2.32(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)':
+  '@switchboard-xyz/on-demand@1.2.32(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)':
     dependencies:
       '@brokerloop/ttlcache': 3.2.3
       '@coral-xyz/anchor-30': '@coral-xyz/anchor@0.30.1(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)'
       '@solana/web3.js': 1.91.6(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
-      '@solworks/soltoolkit-sdk': 0.0.23(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(utf-8-validate@5.0.10)
+      '@solworks/soltoolkit-sdk': 0.0.23(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       '@switchboard-xyz/common': 2.5.3(bufferutil@4.0.8)(encoding@0.1.13)(utf-8-validate@5.0.10)
       axios: 1.7.7
       big.js: 6.2.2
@@ -12539,7 +12458,6 @@ snapshots:
       - bufferutil
       - debug
       - encoding
-      - fastestsmallesttextencoderdecoder
       - utf-8-validate
 
   '@switchboard-xyz/solana.js@2.8.4(bufferutil@4.0.8)(encoding@0.1.13)(fastestsmallesttextencoderdecoder@1.0.22)(typescript@5.6.3)(utf-8-validate@5.0.10)':
