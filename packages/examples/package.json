@@ -1,0 +1,26 @@
+{
+  "name": "@cosmic-lab/prop-shop-examples",
+  "version": "0.2.13",
+  "author": "Drew Riester <epochsolana@gmail.com>",
+  "description": "Examples bots to interact with Prop Shop",
+  "main": "src/index.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cosmic-lab-inc/prop_shop.git"
+  },
+  "scripts": {
+    "clean": "yes | rm -rf dist && rm -rf node_modules",
+    "lint": "prettier --check './src/**/*.ts' && eslint",
+    "build": "tsc",
+    "prettify:fix": "prettier --write './src/**/*.ts'"
+  },
+  "dependencies": {
+    "@coral-xyz/anchor": "0.28.0",
+    "@cosmic-lab/data-source": "^0.7.4",
+    "@cosmic-lab/phoenix-vaults-sdk": "^0.1.7",
+    "@drift-labs/sdk": "2.96.0-beta.14",
+    "@drift-labs/vaults-sdk": "0.1.468",
+    "@ellipsis-labs/phoenix-sdk": "2.0.3",
+    "@cosmic-lab/prop-shop-sdk": "^0.2.19"
+  }
+}
