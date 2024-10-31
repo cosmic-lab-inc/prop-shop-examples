@@ -71,8 +71,8 @@ export class PhoenixMomentumBot {
    * @param connection - Solana RPC connection
    * @param keypair - Transaction payer and authority of the Prop Shop fund
    * @param fundName - Name of the Prop Shop fund to manage
-   * @param market - market index and spot/perp type
-   * @param marketCacheSize - Number of market prices to cache
+   * @param market - address of Phoenix market (i.e. SOL/USDC)
+   * @param marketCacheSize - Number of market price snapshots to cache
    * @param tf - Timeframe to use for trading
    * @param simulate - Simulate transaction instead of sending
    * @returns PhoenixMomentumBot
@@ -101,10 +101,10 @@ export class PhoenixMomentumBot {
    * @param connection - Solana RPC connection
    * @param wallet - Transaction payer and authority of the Prop Shop fund
    * @param fundName - Name of the Prop Shop fund to manage
-   * @param market - market index and spot/perp type
-   * @param marketCacheSize - Number of market prices to cache
+   * @param market - address of Phoenix market (i.e. SOL/USDC)
+   * @param marketCacheSize - Number of market price snapshots to cache
    * @param tf - Timeframe to use for trading
-   * @param simulate - Simulate transaction instead of sending
+   * @param simulate - Simulate transactions instead of sending
    */
   static async fromWallet(params: {
     connection: Connection;
@@ -128,8 +128,8 @@ export class PhoenixMomentumBot {
    * @param params
    * @param config - Contains RPC connection and wallet or keypair signer
    * @param fundName - Name of the Prop Shop fund the signer manages (can be new or existing)
-   * @param market - market index and spot/perp type
-   * @param marketCacheSize - Number of market prices to cache
+   * @param market - address of Phoenix market (i.e. SOL/USDC)
+   * @param marketCacheSize - Number of market price snapshots to cache
    * @param tf - Timeframe to use for trading
    * @param simulate - Simulate transaction instead of sending
    */
