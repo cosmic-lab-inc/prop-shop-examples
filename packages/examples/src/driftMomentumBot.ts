@@ -30,7 +30,8 @@ import {MarketInfo, MarketPriceInfo, RingBuffer, StandardTimeframe, Timeframe,} 
 
 /**
  * In this example, this is a bot that automatically trades based on a simple signal-based strategy.
- * The strategy is a "momentum" strategy that buys if price is >X period moving average, and sells if below.
+ * The strategy is a "momentum" strategy that buys if price is >70 RSI, and sells if >90.
+ * It is based on the principle of "buy high, sell higher" or "an object in motion tends to stay in motion".
  * For most blue-chip tokens this strategy backtests well, as that which is trending tends to continue trending (momentum).
  *
  * If you are forking this example bot, then change the trading strategy logic within the "start" function.
@@ -42,7 +43,7 @@ import {MarketInfo, MarketPriceInfo, RingBuffer, StandardTimeframe, Timeframe,} 
  * The functions to place trades are already implemented for you (placeMarketPerpOrder, etc.).
  * The getters to read the fund state and relevant keys are also implemented for you.
  *
- * For in depth usage see "tests/exampleDevnetBot.ts"
+ * For in depth usage see "tests/driftMomentumBot.ts"
  * ```
  * const bot = await DriftMomentumBot.fromKeypair(connection, keypair, 'fundName');
  * await bot.start(); // or manually call functions if used for other purposes

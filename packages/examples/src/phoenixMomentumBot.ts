@@ -26,19 +26,20 @@ import {EventEmitter} from "events";
 
 /**
  * In this example, this is a bot that automatically trades based on a simple signal-based strategy.
- * The strategy is a "momentum" strategy that buys if price is >X period moving average, and sells if below.
+ * The strategy is a "momentum" strategy that buys if price is >70 RSI, and sells if >90.
+ * It is based on the principle of "buy high, sell higher" or "an object in motion tends to stay in motion".
  * For most blue-chip tokens this strategy backtests well, as that which is trending tends to continue trending (momentum).
  *
  * If you are forking this example bot, then change the trading strategy logic within the "start" function.
  * All other code should be reusable as is.
  *
- * Upon calling "initialize" the bot will stream deposit/withdraw/order events,
- * as well as the orderbook if you need that instead of the oracle price in order to make trading decisions.
+ * Upon calling "initialize" the bot will stream the orderbook in order to make trading decisions.
+ * Since Phoenix doesn't use oracles, the "price" is the best bid if selling or bid ask if buying.
  *
- * The functions to place trades are already implemented for you (placeMarketPerpOrder, etc.).
+ * The functions to place trades are already implemented for you (placeLimitOrder, etc.).
  * The getters to read the fund state and relevant keys are also implemented for you.
  *
- * For in depth usage see "tests/exampleDevnetBot.ts"
+ * For in depth usage see "tests/phoenixMomentumBot.ts"
  * ```
  * const bot = await PhoenixMomentumBot.fromKeypair(connection, keypair, 'fundName');
  * await bot.start(); // or manually call functions if used for other purposes
